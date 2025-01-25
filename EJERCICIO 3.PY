@@ -13,7 +13,7 @@ def crear_lista():
   except ValueError:
      print("no se pudo ingresar los datos")
 
-def suma_arreglo(arreglo):
+def promedio_arreglo(arreglo):
     suma = 0
     for cantidadArreglo in arreglo:
         suma += cantidadArreglo
@@ -21,5 +21,5 @@ def suma_arreglo(arreglo):
     return promedio
 
 lista=crear_lista()
-
-print(suma_arreglo(lista))
+promedio = promedio_arreglo(lista)
+print(f"El promedio es: {promedio}")
