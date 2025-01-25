@@ -1,0 +1,8 @@
+git init
+git add .
+git commit -m "Carga Inicial"
+git config --global user.name "Oscar Gualoto"
+git remote add origin https://github.com/osrkzc04/puce_python_ejercicios.git
+git branch -M master
+git push -u origin master
+PYd^jzLr74T5CPF
