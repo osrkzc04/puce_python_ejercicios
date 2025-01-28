@@ -12,4 +12,20 @@ def crear_lista():
     return arreglo
   except ValueError:
      print("no se pudo ingresar los datos")
-     
+def contar_ocurrencias(arreglo, numero):
+    contador = 0
+    for i in range(len(arreglo)):
+        if arreglo[i] == numero:
+            contador += 1
+    return contador
+
+# Nueva función principal para ejecutar el programa
+def ejecutar_programa():
+    arreglo = crear_lista()
+    if arreglo:
+        numero_a_contar = int(input("Ingrese el número a contar en el arreglo: "))
+        ocurrencias = contar_ocurrencias(arreglo, numero_a_contar)
+        print(f"El número {numero_a_contar} aparece {ocurrencias} veces en el arreglo.")
+
+# Ejecutamos la nueva función principal
+ejecutar_programa()     
