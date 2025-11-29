@@ -2,6 +2,9 @@
  - Oscar
  - Raquel
  - Xavier
+ - gabriel
+ - emilio
+ - fernando
 
 Realizar lo siguientes ejercicios, el estudiante debe utilizar funciones manejo de errores y cada estudiante debe subir al menos dos ejercicios  
 
